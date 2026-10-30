@@ -9,18 +9,28 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "mammoth": "^1.12.3",
     "next": "16.3.6",
+    "openai": "^7.23.0",
+    "pdf-parse": "^2.4.5",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-dropzone": "^20.1.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22.3.0"
   }
+  
 }
